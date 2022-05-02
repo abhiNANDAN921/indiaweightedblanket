@@ -35,7 +35,7 @@ export default function Navbar({ fixed }) {
               <li className="nav-item">
                 <a
                   className="px-3 py-2 flex items-center   text-base leading-snug text-white hover:opacity-75"
-                  href="http://localhost:8000/"
+                  href="https://weightedblanketindia.com/"
                 >
                   <span className="ml-2">Home</span>
                 </a>
