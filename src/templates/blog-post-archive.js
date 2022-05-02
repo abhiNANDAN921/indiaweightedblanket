@@ -29,14 +29,14 @@ const BlogIndex = ({
     <Layout isHomePage>
       <Seo title="All posts" />
 
-      <Bio />
+     
 
-      <ol style={{ listStyle: `none` }}>
+      <ol className="main-card" style={{ listStyle: `none` }}>
         {posts.map(post => {
           const title = post.title
 
           return (
-            <li key={post.uri}>
+            <li className="card" key={post.uri}>
               <article
                 className="post-list-item"
                 itemScope
@@ -47,10 +47,16 @@ const BlogIndex = ({
                     <Link to={post.uri} itemProp="url">
                       <span itemProp="headline">{parse(title)}</span>
                     </Link>
+                    
                   </h2>
-                  <small>{post.date}</small>
+                 
                 </header>
-                <section itemProp="description">{parse(post.excerpt)}</section>
+                <section className="descriptions" itemProp="description">{parse(post.excerpt)}</section>
+                <br></br>
+              
+                <Link to={post.uri} itemProp="url">
+                      <span className="read-more" itemProp="headline">Read More</span>
+                    </Link>
               </article>
             </li>
           )

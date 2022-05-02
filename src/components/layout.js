@@ -2,6 +2,9 @@ import React from "react"
 import { Link, useStaticQuery, graphql } from "gatsby"
 import parse from "html-react-parser"
 
+import Header from "../components/Header"
+import Footer from "../components/Footer"
+import Hero from "../components/Hero"
 const Layout = ({ isHomePage, children }) => {
   const {
     wp: {
@@ -19,8 +22,8 @@ const Layout = ({ isHomePage, children }) => {
   `)
 
   return (
-    <div className="global-wrapper" data-is-root-path={isHomePage}>
-      <header className="global-header">
+    <div  data-is-root-path={isHomePage}>
+      {/* <header className="global-header">
         {isHomePage ? (
           <h1 className="main-heading">
             <Link to="/">{parse(title)}</Link>
@@ -30,17 +33,14 @@ const Layout = ({ isHomePage, children }) => {
             {title}
           </Link>
         )}
-      </header>
+      </header> */}
+<Header/>
+<Hero/>
+      <main  className="global-wrapper newdesign">{children}</main>
 
-      <main>{children}</main>
+<Footer/>
 
-      <footer>
-        © {new Date().getFullYear()}, Built with
-        {` `}
-        <a href="https://www.gatsbyjs.com">Gatsby</a>
-        {` `}
-        And <a href="https://wordpress.org/">WordPress</a>
-      </footer>
+
     </div>
   )
 }

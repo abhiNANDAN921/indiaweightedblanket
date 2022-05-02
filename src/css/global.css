@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ #up  {
+    background:url('../images/weightedblanketindia.png');}
+#up1{
+    padding-top:220px;
+    padding-bottom:220px;
+}
+ul {
+    list-style-type: none;
+  }

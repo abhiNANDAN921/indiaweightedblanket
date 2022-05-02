@@ -11,7 +11,6 @@ import parse from "html-react-parser"
 import "../css/@wordpress/block-library/build-style/style.css"
 import "../css/@wordpress/block-library/build-style/theme.css"
 
-import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
@@ -30,7 +29,7 @@ const BlogPostTemplate = ({ data: { previous, next, post } }) => {
         itemScope
         itemType="http://schema.org/Article"
       >
-        <header>
+        <header className="blog-page-main">
           <h1 itemProp="headline">{parse(post.title)}</h1>
 
           <p>{post.date}</p>
@@ -40,7 +39,8 @@ const BlogPostTemplate = ({ data: { previous, next, post } }) => {
             <GatsbyImage
               image={featuredImage.data}
               alt={featuredImage.alt}
-              style={{ marginBottom: 50 }}
+              style={{ marginBottom: 50} }
+              
             />
           )}
         </header>
@@ -51,9 +51,7 @@ const BlogPostTemplate = ({ data: { previous, next, post } }) => {
 
         <hr />
 
-        <footer>
-          <Bio />
-        </footer>
+      
       </article>
 
       <nav className="blog-post-nav">
@@ -68,7 +66,7 @@ const BlogPostTemplate = ({ data: { previous, next, post } }) => {
         >
           <li>
             {previous && (
-              <Link to={previous.uri} rel="prev">
+              <Link  className="previ" to={previous.uri} rel="prev">
                 ← {parse(previous.title)}
               </Link>
             )}
@@ -76,7 +74,7 @@ const BlogPostTemplate = ({ data: { previous, next, post } }) => {
 
           <li>
             {next && (
-              <Link to={next.uri} rel="next">
+              <Link className="next" to={next.uri} rel="next">
                 {parse(next.title)} →
               </Link>
             )}
