@@ -10,7 +10,7 @@ export default function Navbar({ fixed }) {
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <a
               className="text-base  leading-relaxed inline-block mr-4 py-2 whitespace-nowrap  text-white text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-400"
-              href="#pablo"
+              href="https://weightedblanketindia.com/"
             >
               <span className="text-2xl ">W</span>
               eighted Blanket India
@@ -43,19 +43,12 @@ export default function Navbar({ fixed }) {
               <li className="nav-item">
                 <a
                   className="px-3 py-2 flex items-center text-base  leading-snug text-white hover:opacity-75"
-                  href="http://localhost:8000/Contact"
+                  href="https://weightedblanketindia.com/Contact/"
                 >
                   <span className="ml-2">Contact Us</span>
                 </a>
               </li>
-              <li className="nav-item">
-                <a
-                  className="px-3 py-2 flex items-center text-base   leading-snug text-white hover:opacity-75"
-                  href="http://localhost:8000/About"
-                >
-              <span className="ml-2">About Us</span>
-                </a>
-              </li>
+             
             </ul>
 
 
