@@ -29,7 +29,7 @@ module.exports = {
         url:
           process.env.WPGRAPHQL_URL ||
           `https://wordpress.weightedblanketindia.com/graphql`,  
-      },
+      }, 
     },
 
     /**
