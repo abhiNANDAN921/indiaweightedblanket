@@ -45,7 +45,7 @@ export default function Navbar({ fixed }) {
                   className="px-3 py-2 flex items-center text-base  leading-snug text-white hover:opacity-75"
                   href="https://weightedblanketindia.com/Contact/"
                 >
-                  <span className="ml-2">Contact us</span>
+                  <span className="ml-2">Contact</span>
                 </a>
               </li>
              
