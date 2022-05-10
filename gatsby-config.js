@@ -11,7 +11,7 @@ module.exports = {
   siteMetadata: {
   // If you didn't use the resolveSiteUrl option this needs to be set
   siteUrl: `https://www.weightedblanketindia.com/`,
-     siteUrl: `https://www.weightedblanketindia.com/Contact/`,
+
     
 },
  siteMetadata: {
