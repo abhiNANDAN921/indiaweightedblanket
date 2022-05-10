@@ -14,7 +14,13 @@ module.exports = {
      siteUrl: `https://www.weightedblanketindia.com/Contact/`,
     
 },
+ siteMetadata: {
+  // If you didn't use the resolveSiteUrl option this needs to be set
 
+     siteUrl: `https://www.weightedblanketindia.com/Contact/`,
+    
+},
+  
   /**
    * Adding plugins to this array adds them to your Gatsby site.
    *
