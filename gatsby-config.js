@@ -7,6 +7,12 @@
  */
 
 module.exports = {
+  
+  siteMetadata: {
+  // If you didn't use the resolveSiteUrl option this needs to be set
+  siteUrl: `https://www.weightedblanketindia.com/`,
+},
+
   /**
    * Adding plugins to this array adds them to your Gatsby site.
    *
@@ -72,6 +78,7 @@ module.exports = {
     // See https://www.gatsbyjs.com/plugins/gatsby-plugin-react-helmet/?=gatsby-plugin-react-helmet
     `gatsby-plugin-react-helmet`,
     'gatsby-plugin-postcss',
+     'gatsby-plugin-sitemap',
 
     /**
      * this (optional) plugin enables Progressive Web App + Offline functionality
