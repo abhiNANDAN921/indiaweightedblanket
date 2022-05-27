@@ -201,8 +201,8 @@ li > ul {
   
 }
 ol, ul, menu{
- font-weight: 600;
-
+ font-weight: 500;
+list-style:unset!important;
   padding: 15px 0px 5px 15px!important;
  
 }
