@@ -31,7 +31,7 @@ export default function Navbar({ fixed }) {
             id="example-navbar-danger"
           >
 
-            <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
+            <ul className="flex flex-col lg:flex-row list-none lg:ml-auto" id="header-content">
               <li className="nav-item">
                 <a
                   className="px-3 py-2 flex items-center   text-base leading-snug text-white hover:opacity-75"
