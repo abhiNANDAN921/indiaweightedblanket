@@ -204,7 +204,7 @@ ol, ul, menu{
  font-weight: 600;
 
   padding: 15px 0px 5px 15px!important;
-  list-style-type: unset;
+ 
 }
 blockquote {
   color: var(--color-text-light);
