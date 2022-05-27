@@ -426,6 +426,6 @@ a:focus {
   list-style: none!important;
   font-weight:600!important;
 }
-#header-content ul{
+.header-content{
   list-style: none!important;
 }
