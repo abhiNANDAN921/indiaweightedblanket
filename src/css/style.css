@@ -422,3 +422,7 @@ a:focus {
 .descriptions{
   font-weight:100;
 }
+.blog-post-nav ul{
+  list-style: none!important;
+  font-weight:600!important;
+}
