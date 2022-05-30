@@ -10,7 +10,7 @@ export default function Hero() {
 					<span class="text-white">Right</span> Place To
            </h1>
            <h2 class="text-gray-200 font-medium text-2xl xs:text-4xl md:text-5xl ">
-            Get a <span class="text-white">Better</span> Experiance <span class="text-white">about</span> Weighted Blanket
+            Get a <span class="text-white">Better</span> Experience <span class="text-white">about</span> Weighted Blanket
            </h2>
            {/* <div class="inline-flex">
            <button class="p-2 my-5 mx-2 bg-indigo-700 hover:bg-indigo-800 font-bold text-white rounded border-2 border-transparent hover:border-indigo-800 shadow-md transition duration-500 md:text-xl">Hire US!</button>
